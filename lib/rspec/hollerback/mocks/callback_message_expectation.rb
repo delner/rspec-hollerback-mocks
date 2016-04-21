@@ -24,4 +24,4 @@ module RSpec
 end
 
 # Inject into RSpec
-RSpec::Mocks::MessageExpectation.include RSpec::Hollerback::Mocks::CallbackMessageExpectation
+RSpec::Mocks::MessageExpectation.send(:include, RSpec::Hollerback::Mocks::CallbackMessageExpectation)

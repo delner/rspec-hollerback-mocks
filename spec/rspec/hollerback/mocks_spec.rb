@@ -52,7 +52,7 @@ describe RSpec::Hollerback::Mocks do
   end
   let(:hollerback_class) do
     stub_const 'TestClass', Class.new
-    TestClass.include Hollerback
+    TestClass.send(:include, Hollerback)
     TestClass
   end
 

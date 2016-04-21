@@ -18,4 +18,4 @@ module RSpec
 end
 
 # Inject into RSpec
-RSpec::Mocks::Matchers::Receive.include RSpec::Hollerback::Mocks::ReceiveCallbackMessageExpectation
+RSpec::Mocks::Matchers::Receive.send(:include, RSpec::Hollerback::Mocks::ReceiveCallbackMessageExpectation)

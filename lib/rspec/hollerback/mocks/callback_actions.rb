@@ -13,4 +13,4 @@ module RSpec
 end
 
 # Inject into RSpec
-RSpec::Mocks::Implementation.prepend RSpec::Hollerback::Mocks::CallbackActions
+RSpec::Mocks::Implementation.send(:prepend, RSpec::Hollerback::Mocks::CallbackActions)
