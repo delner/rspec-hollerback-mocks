@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["David Elner"]
   spec.email         = ["david@davidelner.com"]
 
-  spec.summary       = %q{RSpec mocks for Hollerback.}
+  spec.summary       = %q{RSpec mocks for the Hollerback gem.}
   spec.homepage      = "https://github.com/delner/rspec-hollerback-mocks"
   spec.license       = "MIT"
 
