@@ -1,7 +1,7 @@
 RSpec Hollerback Mocks
 ==========
 
-[![Build Status](https://travis-ci.org/delner/rspec-hollerback-mocks.svg?branch=master)](https://travis-ci.org/delner/rspec-hollerback-mocks) ![Gem Version](https://badge.fury.io/rb/rspec-hollerback-mocks.svg)
+[![Build Status](https://travis-ci.org/delner/rspec-hollerback-mocks.svg?branch=master)](https://travis-ci.org/delner/rspec-hollerback-mocks) ![Gem Version](https://img.shields.io/gem/v/rspec-hollerback-mocks.svg?maxAge=2592000)
 ###### *For Ruby 2+, RSpec 3+*
 
 ### Introduction
@@ -176,8 +176,6 @@ end
 ## Development
 
 Install dependencies using `bundle install`. Run tests using `bundle exec rspec`
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
